@@ -1,0 +1,13 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #f4f4f4
+}
+body, div, p{
+	padding: 0;
+	margin: 0;
+}
+.title{
+	font-size: 24px;
+	color: #333;
+}

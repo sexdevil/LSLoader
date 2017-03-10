@@ -1,0 +1,10 @@
+{
+  "index.js": {
+    "vueminjs": 1,
+    "listvue": 1
+  },
+  "list.js": {
+    "vueminjs": 1,
+    "listvue": 1
+  }
+}

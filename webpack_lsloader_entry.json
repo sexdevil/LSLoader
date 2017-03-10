@@ -1,0 +1,10 @@
+{
+  "list": "./dev/webpack2/js/pages/list.js",
+  "index": "./dev/webpack2/js/pages/index.js",
+  "vueminjs": [
+    "./dev/webpack2/js/lib/vue.min.js"
+  ],
+  "listvue": [
+    "./dev/webpack2/js/component/list.vue"
+  ]
+}

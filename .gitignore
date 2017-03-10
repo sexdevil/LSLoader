@@ -1,0 +1,10 @@
+.idea
+.idea/*
+node_modules/
+node_modules/*
+client/build/*
+lsloader/build/*
+build/*
+rev-manifest.json
+logs
+npm-debug.log

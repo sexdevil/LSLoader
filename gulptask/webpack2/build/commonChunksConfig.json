@@ -1,0 +1,18 @@
+[
+  {
+    "name": "vueminjs",
+    "filename": "vueminjs_[chunkhash].js",
+    "chunks": [
+      "list",
+      "index"
+    ]
+  },
+  {
+    "name": "listvue",
+    "filename": "listvue_[chunkhash].js",
+    "chunks": [
+      "list",
+      "index"
+    ]
+  }
+]
