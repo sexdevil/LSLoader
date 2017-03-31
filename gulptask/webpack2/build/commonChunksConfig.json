@@ -5,7 +5,8 @@
     "chunks": [
       "list",
       "index"
-    ]
+    ],
+    "minChunks": 2
   },
   {
     "name": "listvue",

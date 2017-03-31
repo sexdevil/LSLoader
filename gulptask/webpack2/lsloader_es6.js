@@ -74,6 +74,12 @@ function writeWebpackConfig(){
     }
     var data = [];
     for(var key in chunksMap){
+        var chunks = [];
+        for(var i in entryNames){
+            if(!!moduleMap[entryNames[i]+'.js'][key]){
+                chunks.push(entryNames[i])
+            }
+        }
         if(chunksMap[key].match(/\.js/g) || chunksMap[key].match(/\.css/g)){
             //如果模块是js或者css文件,加上minChunks属性,避免commonChunksPlugin不能正确打包单一模块的引用
             data.push({

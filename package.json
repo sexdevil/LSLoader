@@ -35,6 +35,8 @@
     "css-loader": "^0.26.1",
     "fs-extra": "^1.0.0",
     "gulp-clean": "^0.3.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
     "style-loader": "^0.13.1",
     "vue-loader": "^10.0.2",
     "vue-template-compiler": "^2.1.5",

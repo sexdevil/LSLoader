@@ -34,7 +34,7 @@ module.exports = {
         entry: entry,
         //入口文件输出配置
         output: {
-        path: './build/webpack2',
+        path: __dirname+'/build/webpack2',
             filename: 'page_[name]_[chunkhash].js'
     },
     module: {
