@@ -1,7 +1,7 @@
 # LSLoader
-###localStorage loader to increase mobile webapp speed
+### localStorage loader to increase mobile webapp speed
 
-##一 项目背景
+## 一 项目背景
 外卖I版页面,红包页面每天访问量很大,其中红包页在微信Webview中访问为主,<br/>
 但是微信webview的缓存有已知如下问题:<br/>
 1 微信webview退出10分钟后,js css 缓存失效,触发304;<br/>
@@ -13,8 +13,8 @@
 LsLoader相对于其他接近方案,有兼容性好,时效性长,以及便于js工程化的特点.业内有美团<br/>
 主站,百度移动版,滴滴移动端使用了这种方案,效果明显.<br/>
 
-##二 技术选型
-###主站目前已有truckJS解决方案<br/>
+## 二 技术选型
+### 主站目前已有truckJS解决方案<br/>
 技术基本原理是前端重新定义了require,define函数,重写AMD加载器,<br/>
 结合上线时打包进行AST语法分析进行依赖分析,浏览器端按照AMD模块粒度进行缓存<br/>
 如果模块有变化,combo服务把所有变化文件进行更新,省流量省加载时间.<br/>
@@ -25,7 +25,7 @@ truckJS功能强大,但是使用时候依赖AMD结构,不支持非AMD模块,不�
 对应我们的红包页面,里面混杂了外站js,非AMD js接口,页面行内脚本依赖外引非AMD js.<br/>
 红包页面css样式有两个请求,需要缓存优化.<br/>
 
-##三 Why LsLoader--一个并行加载顺序执行,最贴近原生js模式的本地缓存库
+## 三 Why LsLoader--一个并行加载顺序执行,最贴近原生js模式的本地缓存库
 不同于truckJS架构对AMD加载器的依赖,LsLoader运行方式模仿原生js css的加载方式,<br/>
 css异步加载,样式在页面顺序按照编码是顺序保证正确;<br/>
 js 异步加载,顺序执行,有序性保证xhr加载的js 本地缓存的js 标签加载的js 以及行内
@@ -48,7 +48,7 @@ build时,你只要模版中加入各种标记注释,标识下你要开启缓存�
 
 
 
-##四 代码原理
+## 四 代码原理
 LsLoader线上代码会将每个css js文件利用异步的方式进行加载处理,代码本地缓存.<br/>
 所有可以缓存的文件都以key:'相对路径,value : 线上路径/*codestart*/代码' 的方式存储到LocalStorage中来.<br/>
 相对路径做key可以防止项目同名文件互相覆盖,线上路径带有md5戳可以作版本标示.<br/>
@@ -62,7 +62,7 @@ js加载使用xhr异步加载,成功后代码放入待执行队列<br/>
 
 
 
-##五 使用方式
+## 五 使用方式
 LsLoader分两部分,一个是运行再客户端,压缩后2k大小的LsLoader.js,一个是运行在gulp环境里的打包程序templateBuild.js<br/>
 任务配置:gulp调用templateBuild程序,传入唯一参数path,标示需要编译处理的模版文件<br/>
 templateBuild文件头部jsonPath 配置上工程打包生成版本号生成的json文件,key-value对应写好本地相对路径和
@@ -77,14 +77,14 @@ templateBuild文件头部jsonPath 配置上工程打包生成版本号生成的j
 lsloader加载方式,开启本地强缓存<br/>
 
 
-###格式 \<!--任务名 build--\>\<!--任务名 endbuild--\><br/>
+### 格式 \<!--任务名 build--\>\<!--任务名 endbuild--\><br/>
 
-###添加库文件
+### 添加库文件
 \<!--lsloder build--\>\<!--lsloder endbuild--\><br/>
 
 编译结果: 用内联js 写入压缩后的lsLoader,一定要在所有编译标签之前加入,例如head中使用
 
-###css引入 缓存 onload一定要加双引号
+### css引入 缓存 onload一定要加双引号
 \<!--css ls build--\><br/>
 \<link rel="stylesheet" type="text/css" href='../css/page3.css' onload="document.documentElement.style.display='';"\><br/>
 \<!--css ls endbuild--\><br/>
@@ -96,7 +96,7 @@ lsloader加载方式,开启本地强缓存<br/>
 每个link带的onload中的代码,都会被插入到lsloader的callback中,当前css加载完即执行,利用callback可以控制页面的显示隐藏,防止异步css造成的乱序
 
 
-###js xhr引入 缓存
+### js xhr引入 缓存
 \<!--js ls build--\><br/>
 \<script src='../js/jquery.js'\><br/>
 \<!--js ls endbuild--\><br/>
@@ -106,7 +106,7 @@ lsloader加载方式,开启本地强缓存<br/>
 利用ajax加载缓存js 成功后加入jsRunsequence队列 顺序执行
 
 
-###外站js script tag 引入
+### 外站js script tag 引入
  \<!--js tagload build--\><br/>
 \<script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'\><br/>
 \<!--js tagload endbuild--\><br/>
@@ -115,7 +115,7 @@ lsloader加载方式,开启本地强缓存<br/>
 
 用script标签加载 单次加载单个文件,保证执行顺序
 
-###内联脚本运行
+### 内联脚本运行
 
 \<!--js inline build--\>
 \<script\>
@@ -131,7 +131,7 @@ console.log('?')
 把内连脚本放入textarea 延迟运行
 
 
-###AMD模块js分析 根据模块内的依赖把所有amd模块用combo加载,本地缓存
+### AMD模块js分析 根据模块内的依赖把所有amd模块用combo加载,本地缓存
 
 <script src='../js/index.js'></script>
 templateBuild.js会扫描模版引用中所有js文件，如果分析语法词含有define，
@@ -142,7 +142,7 @@ lsLoader.loadCombo方法进行处理。
 
 编译结果:lsloader.loadCombo([所有index.js依赖的模块,从树叶到树根顺序排列]);
 
-###非AMD模式js combo 所有注释内的文件会combo缓存进本地 灰度更新
+### 非AMD模式js combo 所有注释内的文件会combo缓存进本地 灰度更新
 <!--js combo build-->
 <script src="../js/jquery.js"></script>
 <script src="../js/noAMD/1.js"></script>
@@ -151,14 +151,14 @@ lsLoader.loadCombo方法进行处理。
 
 编译结果:lsloader.loadCombo([jquery.js,1.js,2.js]);
 
-###关于css的缓存:
+### 关于css的缓存:
 由于调用css时候需要使用异步模式,为了防止页面css乱序造成的repaint/reflow,
 开发时候css link标签onload函数可以被编译成线上模版运行,<br/>
 \<link rel="stylesheet" type="text/css" href='../css/page3.css' onload="document.documentElement.style.display='';"\><br/>
 在页面头部加入document.documentElement.style.display='none';主css加载完回调函数再修改display,即可防止repaint/reflow造成的
 负面效果.<br/>
 
-###关于js的缓存:
+### 关于js的缓存:
 js采用异步加载,顺序执行,所以所有需要保证运行顺序的js,包括外引/行内代码块,都要参与编译,才能让LsLoader决定执行顺序.
 
 如果你的js/css 由于模版嵌套共用等原因不方便加入lsLoader工作流,你也可以用传统link,script方式引入文件,并不会影响
@@ -166,7 +166,7 @@ js采用异步加载,顺序执行,所以所有需要保证运行顺序的js,包�
 执行顺序,近似原生
 
 
-##六 Demo 运行方式
+## 六 Demo 运行方式
 根目录下npm install
 
 运行gulp amd<br/>
@@ -187,7 +187,7 @@ build/html 下打包缓存后代码<br/>
 
 
 
-##七 templateBuild.js
+## 七 templateBuild.js
 
 该文件是用来把未缓存代码转换为LsLoader代码的gulp任务
 
@@ -203,7 +203,7 @@ build/html 下打包缓存后代码<br/>
 
 6.遇见\<!--ASTbuild--\> 时候,需要调用递归遍历js内容,找出define里的模块依赖.从树根找到依赖树的树枝后,按出现顺序去重,传入lsLoader.loadCombo()
 
-##八 如何接入自己的工作流
+## 八 如何接入自己的工作流
 
 templateBuild.js是所有文档编译的核心文件,它是基于gulp工作流写的node.js程序
 
@@ -261,24 +261,24 @@ templateBuild.js是所有文档编译的核心文件,它是基于gulp工作流�
 
      basePath: 相对与ASTBuild.js的目录,该目录下的js文件会被AST分析程序过滤搜索
 
-##九 Lsloader 配合webpack2 使用
-     结合webpack2的打包hash打包能力,Lsloader能够对webpack2的模块进行拆分打包操作.
-     具体原理是利用HashedModuleIdsPlugin让模块序号稳定,再自动分析
-     js源代码的es6引用路径,通过commonChunksPlugin插件,让入口引用的模块都独立打包
-     并且调用Lsloader.loadCombo统一读取/存储
-     具体演示:
+## 九 Lsloader 配合webpack2 使用
+结合webpack2的打包hash打包能力,Lsloader能够对webpack2的模块进行拆分打包操作.
+具体原理是利用HashedModuleIdsPlugin让模块序号稳定,再自动分析
+js源代码的es6引用路径,通过commonChunksPlugin插件,让入口引用的模块都独立打包
+并且调用Lsloader.loadCombo统一读取/存储
+具体演示:
 
-     项目根目录下npm install
+项目根目录下npm install
 
-     运行gulp webpack 源码预处理
+运行gulp webpack 源码预处理
 
-     再运行 webpack  打包
+再运行 webpack  打包
 
-     最后gulp addcombo 完成预处理
+最后gulp addcombo 完成预处理
 
-     运行node app.js 启动express
+运行node app.js 启动express
 
-     访问http://localhost:3000/webpack/index 即可看见打包后的webpack2代码
+访问http://localhost:3000/webpack/index 即可看见打包后的webpack2代码
 
 
 
