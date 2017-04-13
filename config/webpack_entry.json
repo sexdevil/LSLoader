@@ -1,0 +1,4 @@
+{
+  "list":"./src/js/pages/list.js",
+  "index":"./src/js/pages/index.js"
+}
