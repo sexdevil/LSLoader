@@ -12,6 +12,9 @@ var manifestPlugin = new ManifestPlugin({
     // publicPath: 'http://s0.meituan.net/bs/js?f=wm/inode_lfs:/build/'
 });
 
+var ChunkIDsByFilePath = require('./webpackPlugin/chunkIDsByFilePath');
+var chunkIDsByFilePath = new ChunkIDsByFilePath();
+
 //自定义拆分列表数组
 let commonChunksListString = fs.readFileSync('./gulptask/webpack2/build/commonChunksConfig.json', 'utf8');
 commonChunksListString = JSON.parse(commonChunksListString);
@@ -28,6 +31,7 @@ module.exports = {
             filename : 'common_[chunkhash].js'
         }),
         manifestPlugin,
+        chunkIDsByFilePath,
         new webpack.HashedModuleIdsPlugin()
     ].concat(commonChunksList),
         //页面入口文件配置
