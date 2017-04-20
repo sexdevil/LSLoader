@@ -4,24 +4,29 @@
     "filename": "vueminjs_[chunkhash].js",
     "chunks": [
       "list",
+      "list2",
       "index"
     ],
-    "minChunks": 2
+    "minChunks": "Infinity"
   },
   {
     "name": "listvue",
     "filename": "listvue_[chunkhash].js",
     "chunks": [
       "list",
+      "list2",
       "index"
-    ]
+    ],
+    "minChunks": "Infinity"
   },
   {
     "name": "commoncss",
     "filename": "commoncss_[chunkhash].js",
     "chunks": [
+      "list",
+      "list2",
       "index"
     ],
-    "minChunks": 1
+    "minChunks": "Infinity"
   }
 ]

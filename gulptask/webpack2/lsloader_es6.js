@@ -86,21 +86,27 @@ function writeWebpackConfig(){
                 chunks.push(entryNames[i])
             }
         }
-        if(chunksMap[key].match(/\.js/g) || chunksMap[key].match(/\.css/g)){
-            //如果模块是js或者css文件,加上minChunks属性,避免commonChunksPlugin不能正确打包单一模块的引用
-            data.push({
-                name:key,
-                filename:key+'_[chunkhash].js',
-                chunks:chunks,
-                minChunks:chunks.length
-            })
-        }else{
-            data.push({
-                name:key,
-                filename:key+'_[chunkhash].js',
-                chunks:chunks
-            })
-        }
+        //if(chunksMap[key].match(/\.js/g) || chunksMap[key].match(/\.css/g)){
+        //    //如果模块是js或者css文件,加上minChunks属性,避免commonChunksPlugin不能正确打包单一模块的引用
+        //    data.push({
+        //        name:key,
+        //        filename:key+'_[chunkhash].js',
+        //        chunks:chunks,
+        //        minChunks:chunks.length
+        //    })
+        //}else{
+        //    data.push({
+        //        name:key,
+        //        filename:key+'_[chunkhash].js',
+        //        chunks:chunks
+        //    })
+        //}
+        data.push({
+            name:key,
+            filename:key+'_[chunkhash].js',
+            chunks:chunks,
+            minChunks:"Infinity"
+        })
     }
     data = JSON.stringify(data,null,2);
     fs.writeFileSync('./gulptask/webpack2/build/commonChunksConfig.json',data,"utf-8");
