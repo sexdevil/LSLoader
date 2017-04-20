@@ -1,10 +1,10 @@
 {
   "index.js": {
     "vueminjs": 1,
-    "listvue": 1
+    "listvue": 1,
+    "commoncss": 1
   },
   "list.js": {
-    "vueminjs": 1,
-    "listvue": 1
+    "vueminjs": 1
   }
 }

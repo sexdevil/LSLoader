@@ -15,5 +15,13 @@
       "list",
       "index"
     ]
+  },
+  {
+    "name": "commoncss",
+    "filename": "commoncss_[chunkhash].js",
+    "chunks": [
+      "index"
+    ],
+    "minChunks": 1
   }
 ]

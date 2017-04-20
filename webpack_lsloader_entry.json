@@ -6,5 +6,8 @@
   ],
   "listvue": [
     "./dev/webpack2/js/component/list.vue"
+  ],
+  "commoncss": [
+    "./dev/webpack2/css/common.css"
   ]
 }

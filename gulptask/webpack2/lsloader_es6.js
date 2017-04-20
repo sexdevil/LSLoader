@@ -10,6 +10,8 @@ var moduleMap = {};//生成model层使用的路由表,不同入口页面有不�
 
 var chunksMap = {};//所有入口依赖的模块存储在这个map 对应生成commonChunksPlugin的配置
 
+let babylon = require('babylon');
+
 //遍历文件夹
 function _walk(path) {
     var files = fs.readdirSync(path)
@@ -25,18 +27,22 @@ function _walk(path) {
 
 //获取依赖关系
 function getDefine(file,filename,pathname,relativePathName){
-    //第一步 去除注释 单行变多行
-    file = file.replace(/\/\/[^\n]*\n/g,'') // 匹配双斜线单行注释
-    file = file.replace(/\/\*(.|\n)*\*\//g,'') // 匹配*多行注释
-    file = file.replace(/;/g,'\n') //单行变多行
+    //第一步 babylon把源码转成语法树
+    let importList = [];
+    var astNode = babylon.parse(file,{
+        sourceType: "module"
+    });
+    //babylon生成语法树解构可以参考  https://astexplorer.net/
+    var programBody = astNode.program.body;
+    for(var i in programBody){
+        if(programBody[i].type === 'ImportDeclaration'){
+            importList.push(programBody[i].source.value);
+        }
+    }
     //第二步 提取依赖
-    if(file==null){return;}
-    var importList =  file.match(/(import.*from.*)/g)
-    if(importList==null || importList.length===0){return;}
+    if(importList.length===0){return;}
     moduleMap[relativePathName+filename]={};
     importList.forEach(function(item){
-        var path = './client';
-        item = item.match(/('|")([^']|[^"])+('|")/)[0]
         var itemName = item.match(/\/[^\/]+$/g)[0]
         itemName = itemName.replace(/'|"|\//g,'').replace(/\./g,'')
         moduleMap[relativePathName+filename][itemName]='';
@@ -92,7 +98,7 @@ function writeWebpackConfig(){
             data.push({
                 name:key,
                 filename:key+'_[chunkhash].js',
-                chunks:entryNames
+                chunks:chunks
             })
         }
     }
