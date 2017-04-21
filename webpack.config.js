@@ -15,6 +15,9 @@ var manifestPlugin = new ManifestPlugin({
 var ChunkIDsByFilePath = require('./webpackPlugin/chunkIDsByFilePath');
 var chunkIDsByFilePath = new ChunkIDsByFilePath();
 
+var ModuleIDbyFilePath = require('./webpackPlugin/moduleIDbyFilePath');
+var moduleIDbyFilePath = new ModuleIDbyFilePath();
+
 //自定义拆分列表数组
 let commonChunksListString = fs.readFileSync('./gulptask/webpack2/build/commonChunksConfig.json', 'utf8');
 commonChunksListString = JSON.parse(commonChunksListString);
@@ -32,6 +35,7 @@ module.exports = {
         }),
         manifestPlugin,
         chunkIDsByFilePath,
+        moduleIDbyFilePath,
         new webpack.HashedModuleIdsPlugin()
     ].concat(commonChunksList),
         //页面入口文件配置

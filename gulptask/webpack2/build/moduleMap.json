@@ -7,11 +7,10 @@
   "list.js": {
     "vueminjs": 1,
     "listvue": 1,
+    "alibjs": 1,
     "commoncss": 1
   },
   "list2.js": {
-    "vueminjs": 1,
-    "listvue": 1,
-    "commoncss": 1
+    "alibjs": 1
   }
 }

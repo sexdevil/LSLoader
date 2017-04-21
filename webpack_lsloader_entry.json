@@ -10,5 +10,8 @@
   ],
   "commoncss": [
     "./dev/webpack2/css/common.css"
+  ],
+  "alibjs": [
+    "./dev/webpack2/js/lib/alib.js"
   ]
 }

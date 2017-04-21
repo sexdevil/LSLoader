@@ -4,7 +4,6 @@
     "filename": "vueminjs_[chunkhash].js",
     "chunks": [
       "list",
-      "list2",
       "index"
     ],
     "minChunks": "Infinity"
@@ -14,7 +13,6 @@
     "filename": "listvue_[chunkhash].js",
     "chunks": [
       "list",
-      "list2",
       "index"
     ],
     "minChunks": "Infinity"
@@ -24,8 +22,16 @@
     "filename": "commoncss_[chunkhash].js",
     "chunks": [
       "list",
-      "list2",
       "index"
+    ],
+    "minChunks": "Infinity"
+  },
+  {
+    "name": "alibjs",
+    "filename": "alibjs_[chunkhash].js",
+    "chunks": [
+      "list",
+      "list2"
     ],
     "minChunks": "Infinity"
   }

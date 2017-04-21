@@ -1,6 +1,6 @@
 import Vue from '../lib/vue.min.js'
 import List from '../component/list.vue'
-
+import alib from '../lib/alib.js'
 import '../../css/common.css'
 
 let data = [
@@ -17,4 +17,4 @@ let vue = new Vue ({
         listData: data
     }
 })
-console.log('demo/vue')
+console.log(alib)
