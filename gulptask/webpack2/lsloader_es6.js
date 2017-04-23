@@ -1,3 +1,4 @@
+"use strict";
 /*
 根据webpack_entry.json文件寻找项目入口文件,
 分析js源码内的import模块,根据依赖关系
@@ -72,7 +73,7 @@ function writeWebpackEntry(){
 function writeWebpackConfig(){
     var entryNames = [];//webpack 入口文件
     var WebpackEntry = fs.readFileSync('./webpack_entry.json', 'utf8');
-    WebpackEntryJson = JSON.parse(WebpackEntry);
+    var WebpackEntryJson = JSON.parse(WebpackEntry);
     for(var key in WebpackEntryJson){
         if(typeof WebpackEntryJson[key] ==='string'){ //配置文件里 字符串类型的是入口文件
             entryNames.push(key);
