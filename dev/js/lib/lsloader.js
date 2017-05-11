@@ -187,7 +187,7 @@
             //每次进入runjs检查jsRunSequence,如果第一项有代码并且状态没被置为failed,执行并剔除队列,回调
             var script= document.createElement('script');
             var root = document.getElementsByTagName('script')[0];
-            script.appendChild(document.createTextNode(this.jsRunSequence[0].code));
+            script.appendChild(document.createTextNode(this.jsRunSequence[0].code+ "\n //# sourceURL=" +this.jsRunSequence[0].name));
             root.parentNode.insertBefore(script, root);
             this.jsRunSequence.shift();
             //如果jsSequence还有排队的 继续运行
