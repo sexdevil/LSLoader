@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>详情页面</title>
+    <script>
+        (function () {
+            function o() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth/750 * 100 + 'px';
+            }
+
+            var e = null;
+            window.addEventListener("resize", function () {
+                clearTimeout(e), e = setTimeout(o, 300)
+            }, !1), o()
+        })(window);
+    </script>
+    <script src="/js/lib/lsloader.js"></script>
+</head>
+
+<body>
+<span class="title">详情页面</span>
+
+<script>lsloader.load("<%= common.name %>","<%= common.path %>")</script>
+<% if (relyModules.length > 0) { %>
+<script>
+    (function(){
+        var relyModules = [];
+        <% relyModules.forEach(function(relyModule){%>
+            relyModules.push({
+            name : '<%=relyModule.name%>',
+            path : '<%=relyModule.path%>'
+        });
+            <% }) %>
+        lsloader.loadCombo(relyModules);
+        })()
+</script>
+<% } %>
+<script>lsloader.load("<%= entrance.name %>","<%= entrance.path %>")</script>
+</body>
+</html>

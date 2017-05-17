@@ -4,12 +4,22 @@ import alib from '../lib/alib.js'
 import '../../css/common.css'
 
 let data = [
-    'item1',
-    'item2',
-    'item3',
-    'item4',
-    'item5',
-    'item6'
+    {
+        name:'item1',
+        url:'./detail'
+    },
+    {
+        name:'item2',
+        url:'./detail'
+    },
+    {
+        name:'item3',
+        url:'./detail'
+    },
+    {
+        name:'item4',
+        url:'./detail'
+    }
 ]
 let vue = new Vue ({
     el: '#root',
