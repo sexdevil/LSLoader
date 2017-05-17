@@ -15,6 +15,9 @@ let vue = new Vue ({
     el: '#root',
     data: {
         listData: data
+    },
+    components: {
+        List
     }
 })
 console.log(alib)

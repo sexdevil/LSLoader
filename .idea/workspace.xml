@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="683417de-4be0-4c39-bc59-b2b6476edb66" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/rev-manifest.json" afterPath="$PROJECT_DIR$/build/rev-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/webpack2/html/index.ejs" afterPath="$PROJECT_DIR$/dev/webpack2/html/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/webpack2/html/list.ejs" afterPath="$PROJECT_DIR$/dev/webpack2/html/list.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/webpack2/js/pages/list.js" afterPath="$PROJECT_DIR$/dev/webpack2/js/pages/list.js" />
     </list>
     <ignored path="LSLoader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,60 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="moduleIDbyFilePath.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpackPlugin/moduleIDbyFilePath.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="71" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="lsloader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/js/lib/lsloader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.851852">
+              <caret line="175" column="46" selection-start-line="175" selection-start-column="46" selection-end-line="175" selection-end-column="46" />
               <folding>
-                <element signature="e#371#595#0" expanded="false" />
-                <element signature="e#602#692#0" expanded="false" />
-                <element signature="e#730#812#0" expanded="false" />
-                <element signature="e#853#945#0" expanded="false" />
-                <element signature="e#980#1137#0" expanded="false" />
-                <element signature="e#1144#1419#0" expanded="false" />
-                <element signature="e#1473#2580#0" expanded="false" />
-                <element signature="e#2588#2770#0" expanded="false" />
-                <element signature="e#2831#3348#0" expanded="false" />
-                <element signature="e#3355#3406#0" expanded="false" />
-                <element signature="e#3457#4194#0" expanded="false" />
-                <element signature="e#4201#4258#0" expanded="false" />
-                <element signature="e#4321#5055#0" expanded="false" />
-                <element signature="e#5062#5157#0" expanded="false" />
-                <element signature="e#5204#6968#0" expanded="false" />
-                <element signature="e#7166#7275#0" expanded="false" />
-                <element signature="e#8042#8463#0" expanded="false" />
-                <element signature="e#8716#8865#0" expanded="false" />
+                <element signature="e#0#238#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.028901733">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state vertical-scroll-proportion="-5.5555553">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -88,8 +54,38 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/webpack2/html/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.083333">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="202" column="77" selection-start-line="202" selection-start-column="77" selection-end-line="202" selection-end-column="77" />
+              <caret line="17" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -98,19 +94,11 @@
       <file leaf-file-name="list.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/webpack2/html/list.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="205" column="141" selection-start-line="205" selection-start-column="141" selection-end-line="205" selection-end-column="141" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lsloader_sync.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/js/lib/lsloader_sync.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="e#74#406#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,31 +106,19 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="276" column="20" selection-start-line="276" selection-start-column="12" selection-end-line="276" selection-end-column="20" />
+            <state vertical-scroll-proportion="-3.851852">
+              <caret line="278" column="28" selection-start-line="278" selection-start-column="28" selection-end-line="278" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lsloader_es6.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulptask/webpack2/lsloader_es6.js">
+      <file leaf-file-name="list.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="108" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.57581574">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chunkIDsByFilePath.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpackPlugin/chunkIDsByFilePath.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -197,12 +173,12 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js" />
         <option value="$PROJECT_DIR$/webpackPlugin/moduleIDbyFilePath.js" />
-        <option value="$PROJECT_DIR$/dev/webpack2/js/pages/list.js" />
         <option value="$PROJECT_DIR$/dev/webpack2/js/pages/list2.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dev/js/lib/lsloader.js" />
         <option value="$PROJECT_DIR$/dev/webpack2/html/index.ejs" />
         <option value="$PROJECT_DIR$/dev/webpack2/html/list.ejs" />
-        <option value="$PROJECT_DIR$/dev/js/lib/lsloader.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dev/webpack2/js/pages/list.js" />
       </list>
     </option>
   </component>
@@ -272,8 +248,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-1039" />
+    <option name="x" value="-41" />
+    <option name="y" value="-877" />
     <option name="width" value="1440" />
     <option name="height" value="803" />
   </component>
@@ -330,7 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webpackPlugin" />
+              <option name="myItemId" value="gulptask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,6 +325,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webpack2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LSLoader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LSLoader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webpack2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,29 +394,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="webpack2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,6 +423,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LSLoader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LSLoader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webpack2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1030,7 +1032,7 @@
       <workItem from="1493202396568" duration="82000" />
       <workItem from="1493202648643" duration="6502000" />
       <workItem from="1494490214561" duration="2777000" />
-      <workItem from="1494994441863" duration="57000" />
+      <workItem from="1494994441863" duration="2790000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1485152529447</created>
@@ -1048,36 +1050,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165328000" />
+    <option name="totallyTimeSpent" value="168061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-1039" width="1440" height="803" extended-state="0" />
-    <editor active="true" />
+    <frame x="-41" y="-877" width="1440" height="803" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17212121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19495091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31831187" sideWeight="0.31707317" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3219858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2278481" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31831187" sideWeight="0.3169399" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31831187" sideWeight="0.68292683" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31831187" sideWeight="0.6830601" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30138713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3219858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30138713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1097,7 +1099,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="js.build_tools.gulp">
@@ -1112,13 +1114,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.75">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/AmdModule.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1130,13 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0588236">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1481482">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1172,13 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1259,13 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/rev-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulptask/webpack2/build/commonChunksConfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5">
@@ -1343,63 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/common_ace8e9b31f78c331268f.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/page_list2_c1ae8d7830df4bd2dd6c.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/page_list_c68c218259014d2a9816.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/page_list_0becab5607e7e0a9240c.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/vueminjs_891220817a8cfcd0ad85.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/page_list2_144ee188a06f5f4f9547.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulptask/webpack2/lsloader_es6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1413,7 +1330,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1442,61 +1359,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="276" column="20" selection-start-line="276" selection-start-column="12" selection-end-line="276" selection-end-column="20" />
+        <state vertical-scroll-proportion="-3.851852">
+          <caret line="278" column="28" selection-start-line="278" selection-start-column="28" selection-end-line="278" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/html/list.ejs">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="205" column="141" selection-start-line="205" selection-start-column="141" selection-end-line="205" selection-end-column="141" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/html/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="202" column="77" selection-start-line="202" selection-start-column="77" selection-end-line="202" selection-end-column="77" />
+        <state vertical-scroll-proportion="-5.5555553">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/lib/lsloader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.851852">
+          <caret line="175" column="46" selection-start-line="175" selection-start-column="46" selection-end-line="175" selection-end-column="46" />
           <folding>
-            <element signature="e#371#595#0" expanded="false" />
-            <element signature="e#602#692#0" expanded="false" />
-            <element signature="e#730#812#0" expanded="false" />
-            <element signature="e#853#945#0" expanded="false" />
-            <element signature="e#980#1137#0" expanded="false" />
-            <element signature="e#1144#1419#0" expanded="false" />
-            <element signature="e#1473#2580#0" expanded="false" />
-            <element signature="e#2588#2770#0" expanded="false" />
-            <element signature="e#2831#3348#0" expanded="false" />
-            <element signature="e#3355#3406#0" expanded="false" />
-            <element signature="e#3457#4194#0" expanded="false" />
-            <element signature="e#4201#4258#0" expanded="false" />
-            <element signature="e#4321#5055#0" expanded="false" />
-            <element signature="e#5062#5157#0" expanded="false" />
-            <element signature="e#5204#6968#0" expanded="false" />
-            <element signature="e#7166#7275#0" expanded="false" />
-            <element signature="e#8042#8463#0" expanded="false" />
-            <element signature="e#8716#8865#0" expanded="false" />
+            <element signature="e#0#238#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/html/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028901733">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state vertical-scroll-proportion="-10.083333">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/html/list.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#74#406#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57581574">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
