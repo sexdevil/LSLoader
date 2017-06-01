@@ -4,9 +4,18 @@ import List from '../component/list.vue'
 import '../../css/common.css'
 
 let data = [
-    '首页1',
-    '首页2',
-    '首页3'
+    {
+        name:'首页1',
+        url:'./detail'
+    },
+    {
+        name:'首页2',
+        url:'./detail'
+    },
+    {
+        name:'首页3',
+        url:'./detail'
+    }
 ]
 let vue = new Vue ({
     el: '#root',
