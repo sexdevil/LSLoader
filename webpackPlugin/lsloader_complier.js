@@ -53,7 +53,7 @@ function getDefine(file,filename,pathname,relativePathName){
         moduleMap[relativePathName+filename][itemName]= 1;
         chunksMap[itemName] = root+item.replace(/\.\.\//g,'').replace(/'|"/g,'');
     })
-    fs.writeFileSync('./gulptask/webpack2/build/moduleMap.json',JSON.stringify(moduleMap,null,2),"utf-8");
+    fs.writeFileSync('./webpackPlugin/build/moduleMap.json',JSON.stringify(moduleMap,null,2),"utf-8");
 }
 
 //写入口文件表
@@ -109,12 +109,12 @@ function writeWebpackConfig(){
         })
     }
     data = JSON.stringify(data,null,2);
-    fs.writeFileSync('./gulptask/webpack2/build/commonChunksConfig.json',data,"utf-8");
+    fs.writeFileSync('./webpackPlugin/build/commonChunksConfig.json',data,"utf-8");
 }
 
 exports.run = function(){
-    if(!fs.existsSync('./gulptask/webpack2/build/')){
-        fs.mkdirSync('./gulptask/webpack2/build/');
+    if(!fs.existsSync('./webpackPlugin/build/')){
+        fs.mkdirSync('./webpackPlugin/build/');
     }
     _walk(entryJSRoot)
     writeWebpackEntry();

@@ -23,7 +23,7 @@ var ModuleIDbyFilePath = require('./webpackPlugin/moduleIDbyFilePath');
 var moduleIDbyFilePath = new ModuleIDbyFilePath();
 
 //步骤三 步骤一中提取的依赖关系拼接到commonChunksPlugin配置里,用官方插件分割
-let commonChunksListString = fs.readFileSync('./gulptask/webpack2/build/commonChunksConfig.json', 'utf8');
+let commonChunksListString = fs.readFileSync('./webpackPlugin/build/commonChunksConfig.json', 'utf8');
 commonChunksListString = JSON.parse(commonChunksListString);
 let commonChunksList = [];
 for(var i in commonChunksListString){

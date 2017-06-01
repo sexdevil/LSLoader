@@ -19,6 +19,21 @@
      访问http://localhost:3000/webpack/index 即可看见打包后的webpack2代码
 
 
+   Lsloader 配合requireJS 使用
+       结合AMD的define语法分析模块依赖树,先用gulptask/templateBuild.js把页面入口文件提取
+       再使用gulptask/ASTbuild.js分析依赖,
+       最后打印到页面调用Lsloader.loadCombo统一读取/存储
+       具体演示:
+
+       项目根目录下npm install
+
+       运行 webpack  打包 (lsloader处理过程已经加入到webpack.config.js中)
+
+       运行node app.js 启动express
+
+       访问http://localhost:3000/webpack/index 即可看见打包后的webpack2代码
+
+
 具体实现原理 选型背景见知乎blog
 配合requireJS
 https://zhuanlan.zhihu.com/p/21357211

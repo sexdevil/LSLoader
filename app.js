@@ -21,7 +21,7 @@ app.set('views', __dirname + '/dev/webpack2/html');
 let mainfest = fs.readFileSync(__dirname + '/build/webpack2/manifest.json',"utf-8");
 mainfest = JSON.parse(mainfest); //md5 对应表
 
-let moduleMap = fs.readFileSync(__dirname + '/gulptask/webpack2/build/moduleMap.json',"utf-8");
+let moduleMap = fs.readFileSync(__dirname + '/webpackPlugin/build/moduleMap.json',"utf-8");
 moduleMap = JSON.parse(moduleMap); //依赖关系 对应表
 
 
