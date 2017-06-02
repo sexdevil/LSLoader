@@ -27,7 +27,7 @@
 
        项目根目录下npm install
 
-       运行 webpack  打包 (lsloader处理过程已经加入到webpack.config.js中)
+       运行 gulp amd 工作流处理requireJS实现的AMD模块文件
 
        运行node app.js 启动express
 
