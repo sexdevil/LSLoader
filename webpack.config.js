@@ -13,7 +13,6 @@ var entry = JSON.parse(entryString);
 var ManifestPlugin = require('webpack-manifest-plugin');
 var manifestPlugin = new ManifestPlugin({
     publicPath: '/webpack2/',
-    // publicPath: 'http://s0.meituan.net/bs/js?f=wm/inode_lfs:/build/'
 });
 //步骤二 webpack打包中的chunkID mouduleID都稳定为路径ID
 var ChunkIDsByFilePath = require('./webpackPlugin/chunkIDsByFilePath');
