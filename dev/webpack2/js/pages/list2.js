@@ -1,4 +1,5 @@
-import Vue from '../lib/alib.js'
+import a from '../lib/alib.js'
+import b from '../lib/blib.js'
 let data = [
     'item1',
     'item2',

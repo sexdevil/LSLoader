@@ -4,6 +4,7 @@
  */
 "use strict";
 
+//文件路径做为chunkid
 
 class chunkIDsByFilePath {
     constructor(options) {
@@ -18,7 +19,11 @@ class chunkIDsByFilePath {
                     chunk.id = chunk.name
                 });
             });
+
         });
+
+
+
     }
 }
 

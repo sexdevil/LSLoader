@@ -4,7 +4,7 @@
  */
 "use strict";
 
-
+//文件路径做为moduleID
 class moduleIDbyFilePath {
     constructor(options) {
     }

@@ -13,5 +13,8 @@
   ],
   "alibjs": [
     "./dev/webpack2/js/lib/alib.js"
+  ],
+  "blibjs": [
+    "./dev/webpack2/js/lib/blib.js"
   ]
 }
