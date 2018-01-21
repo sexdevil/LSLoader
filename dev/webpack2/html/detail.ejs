@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>list页面</title>
+    <title>详情页面</title>
     <script>
         (function () {
             function o() {
@@ -17,10 +17,7 @@
 </head>
 
 <body>
-<span class="title">二级页列表</span>
-<div id="root">
-    <list :list="listData"></list>
-</div>
+<span class="title">详情页面</span>
 
 <script>lsloader.load("<%= common.name %>","<%= common.path %>")</script>
 <% if (relyModules.length > 0) { %>
@@ -28,10 +25,10 @@
     (function(){
         var relyModules = [];
         <% relyModules.forEach(function(relyModule){%>
-                relyModules.push({
-                    name : '<%=relyModule.name%>',
-                    path : '<%=relyModule.path%>'
-                });
+            relyModules.push({
+            name : '<%=relyModule.name%>',
+            path : '<%=relyModule.path%>'
+        });
             <% }) %>
         lsloader.loadCombo(relyModules);
         })()

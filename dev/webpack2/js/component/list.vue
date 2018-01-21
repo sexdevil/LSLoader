@@ -1,7 +1,7 @@
 <template>
     <ul class="list-wrap">
         <li class="list-item" v-for="item in list">
-            {{item}}
+            <a v-bind:href="item.url">{{item.name}}</a>
         </li>
     </ul>
 </template>

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="683417de-4be0-4c39-bc59-b2b6476edb66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpackPlugin/moduleIDbyFilePath.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/webpack2/js/pages/list.js" afterPath="$PROJECT_DIR$/dev/webpack2/js/pages/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/webpack2/js/pages/list2.js" afterPath="$PROJECT_DIR$/dev/webpack2/js/pages/list2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulptask/webpack2/build/commonChunksConfig.json" afterPath="$PROJECT_DIR$/gulptask/webpack2/build/commonChunksConfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulptask/webpack2/build/moduleMap.json" afterPath="$PROJECT_DIR$/gulptask/webpack2/build/moduleMap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack_lsloader_entry.json" afterPath="$PROJECT_DIR$/webpack_lsloader_entry.json" />
     </list>
     <ignored path="LSLoader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,100 +27,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="moduleIDbyFilePath.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpackPlugin/moduleIDbyFilePath.js">
+      <file leaf-file-name="list.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/webpack2/html/list.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#74#406#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list2.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/list2.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_list2_c1ae8d7830df4bd2dd6c.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/webpack2/page_list2_c1ae8d7830df4bd2dd6c.js">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_list_c68c218259014d2a9816.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/webpack2/page_list_c68c218259014d2a9816.js">
+      <file leaf-file-name="commonChunksConfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpackPlugin/build/commonChunksConfig.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="37" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vueminjs_891220817a8cfcd0ad85.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/webpack2/vueminjs_891220817a8cfcd0ad85.js">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_list2_144ee188a06f5f4f9547.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/webpack2/page_list2_144ee188a06f5f4f9547.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-              <folding>
-                <element signature="e#94#954#0" expanded="false" />
-                <element signature="e#1038#1304#0" expanded="false" />
-                <element signature="e#1376#1987#0" expanded="false" />
-                <element signature="e#2038#2538#0" expanded="false" />
-                <element signature="e#2589#4057#0" expanded="false" />
-                <marker date="1492775484000" expanded="true" signature="259093:259102" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-16.25">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.2834008">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/index.js">
+      <file leaf-file-name="templateBuild.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulptask/templateBuild.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="29" />
-              <folding />
+              <caret line="183" column="78" selection-start-line="183" selection-start-column="68" selection-end-line="183" selection-end-column="78" />
+              <folding>
+                <marker date="1490950092000" expanded="true" signature="5549:5561" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/list.js">
+      <file leaf-file-name="detail.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/webpack2/html/detail.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#72#404#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/webpack2/html/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -144,49 +146,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev/css/page2.css" />
-        <option value="$PROJECT_DIR$/dev/js/jquery.js" />
-        <option value="$PROJECT_DIR$/dev/css/main.css" />
         <option value="$PROJECT_DIR$/dev/css/page3.css" />
-        <option value="$PROJECT_DIR$/dev/js/lib/lsloader.js" />
         <option value="$PROJECT_DIR$/gulptask/lsloader_sync.js" />
         <option value="$PROJECT_DIR$/node_modules/gulp-rev/index.js" />
         <option value="$PROJECT_DIR$/dev/js/main.js" />
         <option value="$PROJECT_DIR$/dev/js/fastclick.js" />
-        <option value="$PROJECT_DIR$/dev/html/index.html" />
         <option value="$PROJECT_DIR$/dev/js/index.js" />
         <option value="$PROJECT_DIR$/build/rev-manifest.json" />
         <option value="$PROJECT_DIR$/gulptask/templateBuild.js" />
         <option value="$PROJECT_DIR$/dev/js/AmdModule.js" />
-        <option value="$PROJECT_DIR$/build/html/index.html" />
         <option value="$PROJECT_DIR$/gulptask/lsloader.js" />
         <option value="$PROJECT_DIR$/webpack.js" />
         <option value="$PROJECT_DIR$/dev/webpack2/js/pages/hell.js" />
         <option value="$PROJECT_DIR$/dev/webpack2/js/lib/vue.min.js" />
-        <option value="$PROJECT_DIR$/dev/webpack2/js/component/list.vue" />
-        <option value="$PROJECT_DIR$/dev/webpack2/js/pages/index.js" />
         <option value="$PROJECT_DIR$/dev/webpack2/css/common.css" />
         <option value="$PROJECT_DIR$/webpack_lsloader_entry.json" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/gulptask/webpack2/addCombo.js" />
-        <option value="$PROJECT_DIR$/dev/webpack2/html/list.ejs" />
-        <option value="$PROJECT_DIR$/dev/webpack2/html/index.ejs" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/dev/webpack2/js/lib/alib.js" />
         <option value="$PROJECT_DIR$/dev/webpack2/js/lib/blib.js" />
-        <option value="$PROJECT_DIR$/webpack_entry.json" />
         <option value="$PROJECT_DIR$/node_modules/webpack/lib/HashedModuleIdsPlugin.js" />
         <option value="$PROJECT_DIR$/gulptask/webpack2/build/commonChunksConfig.json" />
         <option value="$PROJECT_DIR$/gulptask/webpack2/lsloader_es6.js" />
         <option value="$PROJECT_DIR$/webpackPlugin/chunkIDsByFilePath.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js" />
         <option value="$PROJECT_DIR$/webpackPlugin/moduleIDbyFilePath.js" />
-        <option value="$PROJECT_DIR$/dev/webpack2/js/pages/list.js" />
         <option value="$PROJECT_DIR$/dev/webpack2/js/pages/list2.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dev/js/lib/lsloader.js" />
+        <option value="$PROJECT_DIR$/dev/webpack2/html/index.ejs" />
+        <option value="$PROJECT_DIR$/dev/webpack2/html/list.ejs" />
+        <option value="$PROJECT_DIR$/dev/webpack2/js/component/list.vue" />
+        <option value="$PROJECT_DIR$/dev/webpack2/js/pages/list.js" />
+        <option value="$PROJECT_DIR$/dev/webpack2/js/pages/index.js" />
+        <option value="$PROJECT_DIR$/dev/webpack2/html/detail.ejs" />
+        <option value="$PROJECT_DIR$/webpack_entry.json" />
+        <option value="$PROJECT_DIR$/dev/webpack2/js/pages/detail.js" />
+        <option value="$PROJECT_DIR$/webpackPlugin/lsloader_addcombo.js" />
+        <option value="$PROJECT_DIR$/webpackPlugin/lsloader_complier.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/build/html/webpack.html" />
+        <option value="$PROJECT_DIR$/build/html/noAMD.html" />
+        <option value="$PROJECT_DIR$/build/html/index2.html" />
+        <option value="$PROJECT_DIR$/build/html/index.html" />
+        <option value="$PROJECT_DIR$/dev/html/index.html" />
+        <option value="$PROJECT_DIR$/dev/html/index2.html" />
+        <option value="$PROJECT_DIR$/dev/html/noAMD.html" />
+        <option value="$PROJECT_DIR$/dev/html/webpack.html" />
+        <option value="$PROJECT_DIR$/gulptask/ASTbuild.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -198,9 +208,6 @@
       <GulpfileState>
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
         <tasks>
-          <GulpTaskState>
-            <task-name>addcombo</task-name>
-          </GulpTaskState>
           <GulpTaskState>
             <dependencies>
               <dependency value="clean" />
@@ -241,9 +248,6 @@
             </dependencies>
             <task-name>uglify</task-name>
           </GulpTaskState>
-          <GulpTaskState>
-            <task-name>webpack</task-name>
-          </GulpTaskState>
         </tasks>
       </GulpfileState>
     </gulpfiles>
@@ -256,10 +260,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="-1004" />
-    <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -286,6 +289,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,43 +334,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulptask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulptask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulptask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack2" />
+              <option name="myItemId" value="webpackPlugin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -382,85 +352,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack2" />
+              <option name="myItemId" value="gulptask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,33 +380,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LSLoader" />
+              <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack2" />
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,26 +399,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$USER_HOME$/project/waimai_wxapp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/project/waimai_i" />
     <property name="js.buildTools.gulp.node_interpreter" value="/usr/local/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="173" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="159" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="175" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="161" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="178" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="163" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="972" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="885" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="173" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="159" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="175" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="161" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="178" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="163" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="972" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="885" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="lessc" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -923,12 +798,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1009,7 +878,7 @@
       <node-options />
       <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
       <tasks>
-        <task>webpack</task>
+        <task>amd</task>
       </tasks>
       <arguments />
       <envs />
@@ -1092,7 +961,25 @@
       <workItem from="1492682216807" duration="195000" />
       <workItem from="1492682415619" duration="10647000" />
       <workItem from="1492755442016" duration="10000" />
-      <workItem from="1492758139671" duration="10641000" />
+      <workItem from="1492758139671" duration="11363000" />
+      <workItem from="1493002188031" duration="3932000" />
+      <workItem from="1493202117498" duration="3000" />
+      <workItem from="1493202396568" duration="82000" />
+      <workItem from="1493202648643" duration="6502000" />
+      <workItem from="1494490214561" duration="2777000" />
+      <workItem from="1494994441863" duration="14148000" />
+      <workItem from="1495092249054" duration="792000" />
+      <workItem from="1495188942824" duration="321000" />
+      <workItem from="1495437459980" duration="671000" />
+      <workItem from="1495884189101" duration="1763000" />
+      <workItem from="1496199750324" duration="3547000" />
+      <workItem from="1496219711154" duration="11000" />
+      <workItem from="1496290991377" duration="2701000" />
+      <workItem from="1496374665481" duration="42000" />
+      <workItem from="1497942077490" duration="4000" />
+      <workItem from="1498446525884" duration="943000" />
+      <workItem from="1498467642675" duration="6000" />
+      <workItem from="1500543628484" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1485152529447</created>
@@ -1110,10 +997,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151253000" />
+    <option name="totallyTimeSpent" value="195021000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="-1004" width="1440" height="803" extended-state="0" />
+    <frame x="0" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1121,25 +1008,25 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17212121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3219858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23769338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31831187" sideWeight="0.27675277" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17150761" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20475698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42651758" sideWeight="0.28348505" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31831187" sideWeight="0.72324723" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42651758" sideWeight="0.71651495" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30138713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3208852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43430153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1159,7 +1046,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="js.build_tools.gulp">
@@ -1174,76 +1061,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.75">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/AmdModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0588236">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/lib/lsloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="364" column="3" selection-start-line="364" selection-start-column="3" selection-end-line="364" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1481482">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptask/webpack2/addCombo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/html/webpack.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85903084">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/html/list.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0416665">
-          <caret line="391" column="0" selection-start-line="391" selection-start-column="0" selection-end-line="404" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/html/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0416665">
-          <caret line="395" column="29" selection-start-line="395" selection-start-column="29" selection-end-line="395" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/webpack/timepicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1258,27 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="275" column="0" selection-start-line="275" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptask/templateBuild.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/webpack2/js/lib/blib.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1290,27 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.041667">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptask/ASTbuild.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/component/list.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07446808">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1342,80 +1117,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulptask/webpack2/build/moduleMap.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptask/webpack2/lsloader_es6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack_entry.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11627907">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/rev-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptask/webpack2/build/commonChunksConfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack_lsloader_entry.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpackPlugin/chunkIDsByFilePath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-126.37037">
-          <caret line="586" column="49" selection-start-line="586" selection-start-column="32" selection-end-line="586" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!block;n#iterationBlockVariable#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/webpack/lib/HashedModuleIdsPlugin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,9 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="16" column="15" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1441,17 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="283" column="23" selection-start-line="283" selection-start-column="23" selection-end-line="283" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/webpack/lib/Compiler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="458" column="55" selection-start-line="458" selection-start-column="35" selection-end-line="458" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1459,9 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28395063">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1469,89 +1156,282 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="218" column="5" selection-start-line="218" selection-start-column="5" selection-end-line="218" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpackPlugin/moduleIDbyFilePath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/vueminjs_891220817a8cfcd0ad85.js">
+    <entry file="file://$PROJECT_DIR$/dev/js/lib/lsloader_sync.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/page_list_c68c218259014d2a9816.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-5.5555553">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/page_list2_c1ae8d7830df4bd2dd6c.js">
+    <entry file="file://$PROJECT_DIR$/dev/js/lib/lsloader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="348" column="62" selection-start-line="348" selection-start-column="62" selection-end-line="348" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack2/page_list2_144ee188a06f5f4f9547.js">
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/component/list.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-          <folding>
-            <element signature="e#94#954#0" expanded="false" />
-            <element signature="e#1038#1304#0" expanded="false" />
-            <element signature="e#1376#1987#0" expanded="false" />
-            <element signature="e#2038#2538#0" expanded="false" />
-            <element signature="e#2589#4057#0" expanded="false" />
-            <marker date="1492775484000" expanded="true" signature="259093:259102" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="29" />
-          <folding />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack_entry.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-58.962963">
+          <caret line="574" column="105" selection-start-line="574" selection-start-column="105" selection-end-line="574" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/webpack/lib/Compiler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackPlugin/chunkIDsByFilePath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackPlugin/moduleIDbyFilePath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack_lsloader_entry.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackPlugin/lsloader_addcombo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackPlugin/build/moduleMap.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/bin/gulp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.841727">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackPlugin/lsloader_complier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-60.0">
+          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/rev-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/html/noAMD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-233.125">
+          <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/html/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/html/noAMD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/html/webpack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-234.375">
+          <caret line="399" column="13" selection-start-line="399" selection-start-column="13" selection-end-line="399" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/html/webpack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulptask/ASTbuild.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/html/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="336" column="14" selection-start-line="336" selection-start-column="14" selection-end-line="336" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/webpack2/js/pages/list2.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/html/detail.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#72#404#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/html/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/webpack2/html/list.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#74#406#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulptask/templateBuild.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="78" selection-start-line="183" selection-start-column="68" selection-end-line="183" selection-end-column="78" />
+          <folding>
+            <marker date="1490950092000" expanded="true" signature="5549:5561" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackPlugin/build/commonChunksConfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="37" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2834008">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
       </provider>

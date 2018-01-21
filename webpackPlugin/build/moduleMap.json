@@ -1,4 +1,8 @@
 {
+  "detail.js": {
+    "vueminjs": 1,
+    "commoncss": 1
+  },
   "index.js": {
     "vueminjs": 1,
     "listvue": 1,
@@ -9,9 +13,12 @@
     "listvue": 1,
     "alibjs": 1,
     "commoncss": 1
+<<<<<<< HEAD:gulptask/webpack2/build/moduleMap.json
   },
   "list2.js": {
     "alibjs": 1,
     "blibjs": 1
+=======
+>>>>>>> a770c24cfbc18d1d21c5a2a32822747f24a0b3f6:webpackPlugin/build/moduleMap.json
   }
 }

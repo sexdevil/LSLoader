@@ -1,5 +1,5 @@
 {
   "list":"./dev/webpack2/js/pages/list.js",
-  "list2":"./dev/webpack2/js/pages/list2.js",
+  "detail":"./dev/webpack2/js/pages/detail.js",
   "index":"./dev/webpack2/js/pages/index.js"
 }

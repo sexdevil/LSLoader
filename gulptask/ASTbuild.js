@@ -1,6 +1,5 @@
 var UglifyJS = require('uglify-js');
 var fs=require("fs");
-var staticPath='../js/'   //开发路径根目录
 
 
 var exports = {};
@@ -53,11 +52,11 @@ function sliceSame(relyList){
  * */
 exports.run=function(filePath,basePath){
     relyList =[];//依赖数组
-    getDefine(fs.readFileSync(filePath,"utf-8"),basePath)
+    getDefine(fs.readFileSync('./dev/'+filePath,"utf-8"),basePath)
     relyList = sliceSame(relyList) //依赖列表去除重复
     console.log('AST分析'+filePath+'依赖AMD模块为:'+relyList)
     for (var key in relyList){   //依赖列表项恢复为相对路径
-        relyList[key] = staticPath+relyList[key]+'.js'
+        relyList[key] = 'js/'+relyList[key]+'.js'
     }
     return relyList;
 }

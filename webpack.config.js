@@ -2,6 +2,10 @@
 var webpack = require('webpack');
 var fs = require('fs');
 
+
+//步骤一 对源码分析 提取公共模块依赖关系
+require('./webpackPlugin/lsloader_complier').run()
+
 var entryPath =  './webpack_lsloader_entry.json';
 var entryString = fs.readFileSync(entryPath, 'utf8');
 var entry = JSON.parse(entryString);
@@ -9,26 +13,34 @@ var entry = JSON.parse(entryString);
 var ManifestPlugin = require('webpack-manifest-plugin');
 var manifestPlugin = new ManifestPlugin({
     publicPath: '/webpack2/',
-    // publicPath: 'http://s0.meituan.net/bs/js?f=wm/inode_lfs:/build/'
 });
-
+//步骤二 webpack打包中的chunkID mouduleID都稳定为路径ID
 var ChunkIDsByFilePath = require('./webpackPlugin/chunkIDsByFilePath');
 var chunkIDsByFilePath = new ChunkIDsByFilePath();
 
 var ModuleIDbyFilePath = require('./webpackPlugin/moduleIDbyFilePath');
 var moduleIDbyFilePath = new ModuleIDbyFilePath();
 
+<<<<<<< HEAD
 var afterEmitAddFileSeprate = require('./webpackPlugin/afterEmitAddFileSeprate');
 var afteremitaddfileSeprate = new afterEmitAddFileSeprate();
 
 //自定义拆分列表数组
 let commonChunksListString = fs.readFileSync('./gulptask/webpack2/build/commonChunksConfig.json', 'utf8');
+=======
+//步骤三 步骤一中提取的依赖关系拼接到commonChunksPlugin配置里,用官方插件分割
+let commonChunksListString = fs.readFileSync('./webpackPlugin/build/commonChunksConfig.json', 'utf8');
+>>>>>>> a770c24cfbc18d1d21c5a2a32822747f24a0b3f6
 commonChunksListString = JSON.parse(commonChunksListString);
 let commonChunksList = [];
 for(var i in commonChunksListString){
     commonChunksList.push(new webpack.optimize.CommonsChunkPlugin(commonChunksListString[i]))
 }
+//步骤五 打包结束后每个js加上/*combojs*/文件分割符,线上combo用
+let AddComboPlugin = require('./webpackPlugin/lsloader_addcombo')
+let addComboPlugin = new AddComboPlugin();
 
+//步骤四 打包
 module.exports = {
     //插件项
     plugins: [
@@ -39,8 +51,14 @@ module.exports = {
         manifestPlugin,
         chunkIDsByFilePath,
         moduleIDbyFilePath,
+<<<<<<< HEAD
         new webpack.HashedModuleIdsPlugin(),
         afteremitaddfileSeprate
+=======
+        //步骤五 打包结束后每个js加上/*combojs*/文件分割符,线上combo用
+        addComboPlugin,
+        new webpack.HashedModuleIdsPlugin()
+>>>>>>> a770c24cfbc18d1d21c5a2a32822747f24a0b3f6
     ].concat(commonChunksList),
         //页面入口文件配置
         entry: entry,

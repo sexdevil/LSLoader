@@ -1,9 +1,8 @@
 {
-  "name": "waimai-FE-deploy",
-  "version": "0.0.1",
-  "description": "美团外卖前端部署工具",
-  "repository": "git@git.sankuai.com/vm/waimai_web.git",
-  "author": "XU Kai (xukai@meituan.com)",
+  "name": "LSLoader",
+  "version": "1.0",
+  "description": "Lsloader依赖工具",
+  "author": "sexdevil",
   "scripts": {
     "start": "node deploy.js"
   },
