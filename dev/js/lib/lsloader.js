@@ -210,6 +210,14 @@
                     that.runjs();
                 }
             };
+            script.onerror=function(){
+                that.jsRunSequence.shift();
+                //如果加载错误，先记录错误并且跳过处理，无依赖关系可继续运行
+                console.error('load error '+script.src);
+                if(that.jsRunSequence.length>0){
+                    that.runjs();
+                }
+            };
             var root = document.getElementsByTagName('script')[0];
             root.parentNode.insertBefore(script, root);
         }
