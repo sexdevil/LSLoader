@@ -21,16 +21,13 @@ var chunkIDsByFilePath = new ChunkIDsByFilePath();
 var ModuleIDbyFilePath = require('./webpackPlugin/moduleIDbyFilePath');
 var moduleIDbyFilePath = new ModuleIDbyFilePath();
 
-<<<<<<< HEAD
+
 var afterEmitAddFileSeprate = require('./webpackPlugin/afterEmitAddFileSeprate');
 var afteremitaddfileSeprate = new afterEmitAddFileSeprate();
 
 //自定义拆分列表数组
 let commonChunksListString = fs.readFileSync('./gulptask/webpack2/build/commonChunksConfig.json', 'utf8');
-=======
-//步骤三 步骤一中提取的依赖关系拼接到commonChunksPlugin配置里,用官方插件分割
-let commonChunksListString = fs.readFileSync('./webpackPlugin/build/commonChunksConfig.json', 'utf8');
->>>>>>> a770c24cfbc18d1d21c5a2a32822747f24a0b3f6
+
 commonChunksListString = JSON.parse(commonChunksListString);
 let commonChunksList = [];
 for(var i in commonChunksListString){
@@ -51,14 +48,8 @@ module.exports = {
         manifestPlugin,
         chunkIDsByFilePath,
         moduleIDbyFilePath,
-<<<<<<< HEAD
         new webpack.HashedModuleIdsPlugin(),
         afteremitaddfileSeprate
-=======
-        //步骤五 打包结束后每个js加上/*combojs*/文件分割符,线上combo用
-        addComboPlugin,
-        new webpack.HashedModuleIdsPlugin()
->>>>>>> a770c24cfbc18d1d21c5a2a32822747f24a0b3f6
     ].concat(commonChunksList),
         //页面入口文件配置
         entry: entry,
