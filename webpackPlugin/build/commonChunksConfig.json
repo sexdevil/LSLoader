@@ -39,9 +39,7 @@
   {
     "name": "blibjs",
     "filename": "blibjs_[chunkhash].js",
-    "chunks": [
-      "list2"
-    ],
+    "chunks": [],
     "minChunks": "Infinity"
   }
 ]

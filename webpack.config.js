@@ -26,13 +26,13 @@ var afterEmitAddFileSeprate = require('./webpackPlugin/afterEmitAddFileSeprate')
 var afteremitaddfileSeprate = new afterEmitAddFileSeprate();
 
 //自定义拆分列表数组
-let commonChunksListString = fs.readFileSync('./gulptask/webpack2/build/commonChunksConfig.json', 'utf8');
-
-commonChunksListString = JSON.parse(commonChunksListString);
-let commonChunksList = [];
-for(var i in commonChunksListString){
-    commonChunksList.push(new webpack.optimize.CommonsChunkPlugin(commonChunksListString[i]))
-}
+//let commonChunksListString = fs.readFileSync('./gulptask/webpack2/build/commonChunksConfig.json', 'utf8');
+//
+//commonChunksListString = JSON.parse(commonChunksListString);
+//let commonChunksList = [];
+//for(var i in commonChunksListString){
+//    commonChunksList.push(new webpack.optimize.CommonsChunkPlugin(commonChunksListString[i]))
+//}
 //步骤五 打包结束后每个js加上/*combojs*/文件分割符,线上combo用
 let AddComboPlugin = require('./webpackPlugin/lsloader_addcombo')
 let addComboPlugin = new AddComboPlugin();
@@ -50,7 +50,7 @@ module.exports = {
         moduleIDbyFilePath,
         new webpack.HashedModuleIdsPlugin(),
         afteremitaddfileSeprate
-    ].concat(commonChunksList),
+    ],
         //页面入口文件配置
         entry: entry,
         //入口文件输出配置

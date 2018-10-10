@@ -47,7 +47,7 @@ gulp.task('lsload',function(){
 })
 
 gulp.task('default',['clean'],function(){
-   gulp.run('lsload')
+   gulp.run('amd')
 })
 
 gulp.task('amd',['clean','copy','build'],function(){
