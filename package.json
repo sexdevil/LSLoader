@@ -17,12 +17,17 @@
     "gulp-filter": "^4.0.0",
     "gulp-rev": "^7.1.2",
     "gulp-rev-replace": "^0.4.3",
+    "gulp-clean": "^0.3.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
     "ncp": "0.5.0",
     "requirejs": "2.1.11",
     "rimraf": "2.2.6",
     "vue-loader": "^10.0.2",
     "vue-template-compiler": "^2.1.5",
-    "webpack": "^2.1.0-beta",
+    "webpack": "2.7.0",
+    "webpack-cli": "2.0.14",
+    "webpack-dev-server": "^1.9.0",
     "webpack-manifest-plugin": "^1.1.0"
   },
   "devDependencies": {
@@ -32,14 +37,8 @@
     "babylon": "^6.15.0",
     "css-loader": "^0.26.1",
     "fs-extra": "^1.0.0",
-    "gulp-clean": "^0.3.2",
-    "gulp-uglify": "^2.1.2",
-    "gulp-util": "^3.0.8",
     "style-loader": "^0.13.1",
     "vue-loader": "^10.0.2",
-    "vue-template-compiler": "^2.1.5",
-    "webpack": "2.7.0",
-    "webpack-cli": "2.0.14",
-    "webpack-dev-server": "^1.9.0"
+    "vue-template-compiler": "^2.1.5"
   }
 }
